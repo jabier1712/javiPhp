@@ -1,0 +1,11 @@
+CREATE TABLE `bd_banca`.`unidad` (
+  `unidadId` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(45) NULL,
+  PRIMARY KEY (`unidadId`));
+
+
+CREATE TABLE `roles` (
+  `rolId` int(11) NOT NULL AUTO_INCREMENT,
+  `rol` varchar(45) NOT NULL,
+  PRIMARY KEY (`rolId`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
